@@ -1,40 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>About</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Zetu Kuluvuyo Zide</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="header">
         <h1>Zetu Kuluvuyo Zide</h1>
-        <!-- Navigation added -->
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" class="nav-links">Home</a></li>
+                <li><a href="about.html" class="nav-links active">About</a></li>
+                <li><a href="projects.html" class="nav-links">Projects</a></li>
+                <li><a href="contact.html" class="nav-links">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h2>My Background</h2>
-            <p>I am a Web Dev recruit at Umuzi Photo Club, with a strong interest in front-end development, UI/UX design, and business analysis. My journey into tech started with a curiosity for how digital products works, and has grown into a passion for building practical, user-centered solutions. I have experience working with web technologies such as HTML, CSS and JavaScript to create responsive applications, designing interfaces that enhance user experience, and analysing problems to develop effective didgital solutions. I am continuously learning and improving my skills to prepare for a career in full-stack development.</p>
+        <section class="hero-pg">
+            <h1>About Me</h1>
+            <p>A little bit about who I am and what I bring to the table.</p>
+        </section>
+
+        <section class="about">
+            <div class="bio">
+                <h2>My Background</h2>
+                <p>I am a Web Dev recruit at Umuzi Photo Club, with a strong interest in front-end development, UI/UX design, and business analysis. My journey into tech started with a curiosity for how digital products works, and has grown into a passion for building practical, user-centered solutions. <br/> <br/> I have experience working with web technologies such as HTML, CSS and JavaScript to create responsive applications, designing interfaces that enhance user experience, and analysing problems to develop effective didgital solutions. I am continuously learning and improving my skills to prepare for a career in full-stack development.</p>
+            </div>
             <img src="images/profile.jpg" alt="A picture of Zetu Kuluvuyo Zide">
         </section>
 
-        <section>
+        <section class="skills">
             <h2>Skills and Certifications</h2>
             <p>Below is a summary of my core technical skills, proficiency levels, and years of experience.</p>
 
             <table>
                 <thead>
-                    <th>Skill</th>
-                    <th>Proficiency Level</th>
-                    <th>Years of Experience</th>
-                    <th>Description</th>
+                    <tr>
+                        <th scope="col">Skill</th>
+                        <th scope="col">Proficiency Level</th>
+                        <th scope="col">Years of Experience</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Certification</th>
+                    </tr>
                 </thead>
 
                 <tbody>
@@ -43,6 +54,7 @@
                         <td>Advanced</td>
                         <td>3</td>
                         <td>Building semantic and accessible web pages</td>
+                        <td><a href="https://coursera.org/share/9fc8304fe3d6617555615bdfcbfa041f" target="_blank">Meta - HTML and CSS in depth</a></td>
                     </tr>
 
                     <tr>
@@ -50,6 +62,7 @@
                         <td>Advanced</td>
                         <td>3</td>
                         <td>Creating responsive and visually appealing designs</td>
+                        <td><a href="https://coursera.org/share/9fc8304fe3d6617555615bdfcbfa041f" target="_blank">Meta - HTML and CSS in depth</a></td>
                     </tr>
 
                     <tr>
@@ -57,13 +70,15 @@
                         <td>Intermediate</td>
                         <td>2</td>
                         <td>Implementing interactive features and functionality</td>
+                        <td><a href="https://coursera.org/share/99a32f0c3cd2986bb9b42d97c8bc30fa" target="_blank">Meta - Programming with JavaScript</a></td>
                     </tr>
 
                     <tr>
-                        <td>Figma</td>
-                        <td>Intermediate</td>
+                        <td>React</td>
+                        <td>Beginner</td>
                         <td>1</td>
-                        <td>Designing wireframes and prototypes</td>
+                        <td>Building interactive user interfaces using components and state management</td>
+                        <td><a href="https://coursera.org/share/33989a48c0cff9a05628ff9dcdf0a055" target="_blank">Meta - React Basics</a></td>
                     </tr>
 
                     <tr>
@@ -71,10 +86,19 @@
                         <td>Intermediate</td>
                         <td>2</td>
                         <td>Version control and collaboration on projects</td>
+                        <td><a href="https://coursera.org/share/a8af14a69a81bbbfe6164c67e98ebd15" target="_blank">Meta - Version Control</a></td>
+                    </tr>
+
+                     <tr>
+                        <td>Figma</td>
+                        <td>Intermediate</td>
+                        <td>1</td>
+                        <td>Designing wireframes and prototypes</td>
+                        <td>N/A</td>
                     </tr>
                 </tbody>
             </table>
-        </Section>
+        </section>
     </main>
     
     <footer class="footer">
