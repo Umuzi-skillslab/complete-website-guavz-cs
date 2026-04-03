@@ -1,30 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Projects</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Zetu Kuluvuyo Zide</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="header">
-        <h1>My Projects</h1>
-    </div>
+    <header class="header">
+        <h1>Zetu Kuluvuyo Zide</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-links">Home</a></li>
+                <li><a href="about.html" class="nav-links">About</a></li>
+                <li><a href="projects.html" class="nav-links active">Projects</a></li>
+                <li><a href="contact.html" class="nav-links">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     
-    <div>
-        <h2>Project 1</h2>
-        <img src="images/project1.jpg">
-        <p>A responsive website built with HTML and CSS.</p>
-    </div>
+    <main>
+        <section class="hero-pg">
+            <h1>My Projects</h1>
+            <p>Here are some of the projects I have worked on, showcasing my skills in front-end development, UI/UX design, and business analysis.</p>
+        </section>
+        
+        <section class="projects">
+            <article class="project-card">
+                <img src="images/portfolio.png" alt="Portfolio Website">
+                <section class="project-info">
+                    <h2>Portfolio Website</h2>
+                    <p>A fully responsive portfolio website showcasing my work and skills. Focused on clean layout, accessibility, and user experience.</p>
+                    <p class="project-tags"><span class="tag">HTML</span> <span class="tag">CSS</span></p>
+                </section>
+            </article>
+
+            <article class="project-card">
+                <img src="images/housekeepers.png" alt="Housekeepers Marketplace">
+                <section class="project-info">
+                    <h2>Housekeepers Marketplace</h2>
+                    <p>A responsive marketplace website for connecting housekeepers with household owners, built with modern web technologies, featuring a seamless browsing experience and intuitive navigation.</p>
+                    <p class="project-tags"><span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JavaScript</span></p>
+                </section>
+            </article>
+
+            <article class="project-card">
+                <img src="images/gQOTD.png" alt="Quote of the Day App">
+                <section class="project-info">
+                    <h2>Quote of the Day</h2>
+                    <p>A simple yet elegant web app for generating and sharing daily quotes.</p>
+                    <p class="project-tags"><span class="tag">HTML</span> <span class="tag">CSS</span></p>
+                </section>
+            </article>
+        </section>
+    </main>
     
-    <div>
-        <h2>Project 2</h2>
-        <img src="images/project2.jpg">
-        <p>An e-commerce site with modern design.</p>
-    </div>
-    
-    <!-- Third project missing -->
-    
-    <div class="footer">
-        <p>Contact me at email@example.com</p>
-    </div>
+    <footer class="footer">
+        <p>Contact me at <a href="mailto:zetu.zide@umuzi.org">zetu.zide@umuzi.org</a></p>
+        <p>&copy; 2026 Zetu Kuluvuyo Zide. All rights reserved.</p>
+    </footer>
 </body>
 </html>

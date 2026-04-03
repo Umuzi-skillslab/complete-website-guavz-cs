@@ -1,28 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Zetu Kuluvuyo Zide</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="header">
-        <h1>My Portfolio</h1>
-        <!-- Navigation missing -->
-    </div>
+    <header class="header">
+        <h1>Zetu Kuluvuyo Zide</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-links active">Home</a></li>
+                <li><a href="about.html" class="nav-links">About</a></li>
+                <li><a href="projects.html" class="nav-links">Projects</a></li>
+                <li><a href="contact.html" class="nav-links">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Welcome to My Portfolio</h2>
+                <p>I design and build user-friendly digital solutions through front-end development, UX/UI design, and business analysis.</p>
+                <a href="projects.html" class="btn">View My Work</a>
+            </div>
+            <img src="images/profile.jpg" alt="A picture of Zetu Kuluvuyo Zide">
+        </section>
+
+        <section class="intro">
+            <h2>About Me</h2>
+            <p>I specialise in building clean, user-friendly websites using HTML, CSS, and JavaScript. I am passionate about creating engaging user experiences, writing code that is easy to maintain, and delivering practical solutions that add real value.</p>
+            <a href="about.html" class="btn sec">Learn More</a>
+        </section>
+
+        <section class="highlights">
+            <h2>What I Do</h2>
+            <div class="cards">
+                <article class="card">
+                    <img src="images/programming.png" alt="Browser icon window with code symbols representing web development.">
+                    <h3>Front-End Development</h3>
+                    <p>I build responsive and user-friendly websites using HTML, CSS, and JavaScript, with a focus on clean design and smooth user experiences.</p>
+                </article>
+
+                <article class="card">
+                    <img src="images/uiux.png" alt="UI/UX icon representing user interface and user experience design.">
+                    <h3>UI/UX Design</h3>
+                    <p>I design intuitive and visually appealing interfaces that make digital products easy to use, accessible, and engaging for users.</p>
+                </article>
+
+                <article class="card">
+                    <img src="images/ba.png" alt="Computer monitor icon with charts and UI elements representing business analysis.">
+                    <h3>Business Analysis</h3>
+                    <p>I help identify business needs, analyse problems, and propose practical digital solutions that improve processes and support decision-making.</p>
+                </article>
+            </div>
+        </section>
+    </main>
     
-    <div class="hero">
-        <h2>Welcome to My Portfolio</h2>
-        <p>I am a web developer passionate about creating beautiful websites.</p>
-        <img src="images/hero.jpg">
-    </div>
-    
-    <div class="intro">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    
-    <div class="footer">
-        <p>Contact me at email@example.com</p>
-    </div>
+    <footer class="footer">
+        <p>Contact me at <a href="mailto:zetu.zide@umuzi.org">zetu.zide@umuzi.org</a></p>
+        <p>&copy; 2026 Zetu Kuluvuyo Zide. All rights reserved.</p>
+    </footer>
 </body>
 </html>
