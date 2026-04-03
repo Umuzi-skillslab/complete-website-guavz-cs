@@ -461,6 +461,10 @@ fieldset legend {
     width: 100%;
 }
 
+#submit {
+    cursor: pointer;
+}
+
 /*Footer styles*/
 .footer {
     background-color: #1a1a1a;
