@@ -4,11 +4,13 @@
 
 This is a multipage portfolio built with HTML and CSS. This projects involved taking broken incomplete starter codebase and debugging, completing and styling it to meet proffessional and accessibility standards and the specified requirements. 
 
-### NB: Please note that the project section might not be truthful with regards to the projects and their tags i.e. both the Housekeepers Platform and Quote of the day didn't use HTML, CSS and JavaScript only but for the purposes of this assignment and learning scope, I've labeled them as such. And that the information provide here is in the scope of the current learning journey. Here is a link to my full portfolio.
+### NB: Please note that the project section might not be truthful with regards to the projects and their tags i.e. both the Housekeepers Platform and Quote of the day didn't use HTML, CSS and JavaScript only but for the purposes of this assignment and learning scope, I've labeled them as such. And that the information provide here is in the scope of the current learning journey. Here is a ![link](https://portfolio-guavz.vercel.app/) to my full portfolio.
 
 ## Additional Documentation
 
--
+Inside the design folder you will find the following files that were a major contribution to the completion of this portfolio website: 
+- Issues-identifed.pdf - this file contains all the issues that I identified from the starter code. 
+- Wirefram.pdf - this files contains screenshots of a low fidelity wireframe that I designed as a template for my website. This wireframe was designed on Figma. 
 
 ## How to View Locally
  
@@ -25,6 +27,11 @@ This is a multipage portfolio built with HTML and CSS. This projects involved ta
 | About page with skills table | `screenshots/about page.png` |
 | Projects page | `screenshots/projects page.png` |
 | Contact page with form | `screenshots/contact page.png` |
+
+![Home Page](<screenshots/home page.png>)
+![About Page](<screenshots/about page.png>)
+![Projects Page](<screenshots/projects page.png>)
+![Contact Page](<screenshots/contact page.png>)
 
 ## Notes
 - The contact form does not actually work, its just a static form with no functionality.
