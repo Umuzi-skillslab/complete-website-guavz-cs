@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
@@ -47,7 +47,6 @@ img {
     font-weight: 700;
     color: #1d4ed8;
     letter-spacing: -0.02em;
-    margin: 0;
     font-size: 1.5rem;
 }
 
@@ -72,7 +71,7 @@ nav ul {
     text-decoration: none;
 }
 
-.nav-links:focus {
+.nav-links:focus-visible {
     outline: 3px solid #1d4ed8;
     outline-offset: 2px;
 }
@@ -176,9 +175,12 @@ main {
     margin: 0 auto 1rem;
 }
  
-.card h3 {
-    color: var(--colour-text);
+.card figcaption {
+    color: #1e293b;
     margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: large;
+    font-style: normal;
 }
 
 .btn {
@@ -209,7 +211,7 @@ main {
     transform: translateY(-1px);
 }
 
-.btn:focus {
+.btn:focus-visible {
     outline: 3px solid #1d4ed8;
     outline-offset: 3px;
 }
@@ -223,7 +225,7 @@ main {
     text-align: center;
 }
 
-.hero-pg h1 {
+.hero-pg h2 {
     color: #ffffff;
     margin-bottom: 0.5rem;
 }
@@ -241,7 +243,7 @@ main {
     border-radius: 6px;
     padding: 2rem;
     margin-bottom: 2rem;
-    box-shadow: var(--shadow);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     display: flex;
     gap: 2rem;
     align-items: flex-start;
@@ -267,8 +269,9 @@ main {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
  
-.skills p {
+caption {
     margin-bottom: 1.25rem;
+    text-align: start;
 }
  
 table {
@@ -332,6 +335,13 @@ tbody tr:hover {
     object-fit: cover;
     flex-shrink: 0;
     border: 2px solid #cbd5e1;
+}
+
+figcaption {
+    margin-top: 1%;
+    font-size: smaller;
+    text-align: center;
+    font-style: italic;
 }
  
 .project-info {
