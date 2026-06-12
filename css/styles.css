@@ -475,6 +475,20 @@ fieldset legend {
     cursor: pointer;
 }
 
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
 /*Footer styles*/
 .footer {
     background-color: #1a1a1a;
