@@ -4,8 +4,28 @@
 
 This is a multipage portfolio built with HTML and CSS. This projects involved taking broken incomplete starter codebase and debugging, completing and styling it to meet proffessional and accessibility standards and the specified requirements. 
 
-NB: Please note that the project section might not be truthful with regards to the projects and their tags i.e. both the Housekeepers Platform and Quote of the day didn't use HTML, CSS and JavaScript only but for the purposes of this assignment and learning scope, I've labeled them as such. And that the information provide here is in the scope of the current learning journey. Here is a [link](https://portfolio-guavz.vercel.app/) to my full portfolio.
+> **NB:**  Please note that the project section might not be truthful with regards to the projects and their tags i.e. both the Housekeepers Platform and Quote of the day didn't use HTML, CSS and JavaScript only but for the purposes of this assignment and learning scope, I've labeled them as such. And that the information provide here is in the scope of the current learning journey. Here is a [link](https://portfolio-guavz.vercel.app/) to my full portfolio.
 
+---
+
+## Technologies Used
+ 
+- **HTML5** — semantic markup, accessibility attributes, form validation
+- **CSS3** — custom properties, flexbox, responsive media queries, animations
+- **Figma** — low-fidelity wireframe design (see `design/Wireframe.pdf`)
+- **Git & GitHub** — version control and submission via GitHub Classroom
+
+---
+
+## Pages
+ 
+| Page | File | Description |
+|------|------|-------------|
+| Home | `index.html` | Landing page with hero section and service highlights |
+| About | `about.html` | Bio, skills table, and certifications |
+| Projects | `projects.html` | Showcase of three projects with descriptions and tags |
+| Contact | `contact.html` | Contact form with validation and accessibility features |
+ 
 ---
 
 ## Additional Documentation
@@ -13,6 +33,15 @@ NB: Please note that the project section might not be truthful with regards to t
 Inside the design folder you will find the following files that were a major contribution to the completion of this portfolio website: 
 - Issues-identifed.pdf - this file contains all the issues that I identified from the starter code. 
 - Wirefram.pdf - this files contains screenshots of a low fidelity wireframe that I designed as a template for my website. This wireframe was designed on Figma. 
+
+---
+
+## Validation Results
+ 
+All four HTML pages and the CSS stylesheet were validated using the W3C validators:
+ 
+- **HTML** — validated using the [W3C Markup Validation Service](https://validator.w3.org/). All pages passed with no errors.
+- **CSS** — validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). The stylesheet passed with no errors.
 
 ---
 
@@ -41,5 +70,10 @@ Contact Page
 
 ---
 
-## Notes
-- The contact form does not actually work, its just a static form with no functionality.
+## Reflection
+ 
+This project gave me a much clearer picture of what it takes to build a complete, standards-compliant website from a broken starting point rather than from scratch. Debugging someone else's code required me to slow down and read carefully before changing anything, which is a skill I found myself developing as the project progressed.
+ 
+The accessibility requirements were the most challenging part. Adding things like `aria-current`, and `aria-live` regions felt unfamiliar at first, but understanding the reasoning behind them, that real users rely on these to navigate, made them feel purposeful rather than just checklist items.
+ 
+If I were to continue improving this project, I would connect the contact form to a real submission service, add a dark mode toggle, and explore using CSS custom properties more consistently throughout the stylesheet to make future style changes easier to manage.
