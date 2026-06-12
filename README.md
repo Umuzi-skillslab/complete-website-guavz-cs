@@ -70,6 +70,33 @@ Contact Page
 
 ---
 
+## Known Issues
+ 
+A full breakdown of all issues identified and resolved during this project is documented in `design/Issues-identified.pdf`. The following is a summary of the key issues found in the starter code and how they were addressed:
+ 
+**HTML Issues**
+- All four pages were missing a navigation menu, meaning users had no way to move between pages — fixed by building a consistent `<nav>` bar across all pages
+- All pages used non-semantic elements instead of `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, and `<footer>`, replaced throughout
+- Images were missing `alt` attributes, making them inaccessible to screen readers, I added descriptive alt text to all images
+- The About page table was absent (only a comment placeholder existed), built from scratch with `<thead>`, `<tbody>`, `<th scope>`, and a `<caption>`
+- The Projects page was missing a third project, I added it
+- The contact form had no labels, incomplete input types, and no validation attributes; the email field was incorrectly typed as `text`, corrected and expanded
+- All pages were missing `<meta charset>`, `<meta viewport>`, `<meta description>`, and the `lang` attribute on `<html>`, I added them to all pages
+**CSS Issues**
+- Only two selector types were used (element and class); requirements called for five or more, expanded to include ID, descendant, grouped, and pseudo-class selectors
+- No pseudo-classes were present, added `:hover`, `:focus`, and `:nth-child`
+- Navigation, table, and form styling were all missing, I added full styles
+- Colour contrast failed the 4.5:1 accessibility ratio, I corrected throughout
+- The footer was left-aligned, I centred it
+- No box model usage (no meaningful padding, margin, or borders), I applied consistently across all sections
+- No layout system, I implemented flexbox across all major sections
+- No responsive design, I added media queries for tablet (`max-width: 768px`) and mobile (`max-width: 480px`)
+**Remaining known limitations**
+- The contact form is static and does not submit data, no back-end or form service is connected
+- Autocomplete on form fields works only when the site is served over a proper connection; it does not trigger when opening the file locally via `file:///`
+
+---
+
 ## Reflection
  
 This project gave me a much clearer picture of what it takes to build a complete, standards-compliant website from a broken starting point rather than from scratch. Debugging someone else's code required me to slow down and read carefully before changing anything, which is a skill I found myself developing as the project progressed.
